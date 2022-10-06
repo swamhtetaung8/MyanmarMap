@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    width: 50%;
+    margin-left: 30px;
+}
+
+.title{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+.description{
+    font-size: 15px;
+    margin:20px 0;
+    color: grey;
+}
+
+.cur{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+#current{
+    color:orange
+}
+
+.right{
+    margin: 0 auto;
+}
+
+.right svg{
+    stroke: white;
+    stroke-opacity: 0.5;
+}
+
+.right svg path{
+    fill: brown;
+    transition: 0.5s;
+}
+
+.right svg path:hover{
+    fill: orange;
+}
